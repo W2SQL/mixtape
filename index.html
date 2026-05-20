@@ -55,15 +55,16 @@
       var row = data[i];
 
       var marker = L.marker([row.Latitude, row.Longitude], {
-        opacity: 1
-        iconUrl: (row.Photo)
-        iconSize:     [38, 95],
-        iconAnchor:   [22, 94],
-        popupAnchor:  [-3, -76]
-    }
-      }).bindPopup(row.Name);
-      
-      marker.addTo(map);
+    opacity: 1,
+    icon: L.icon({
+    iconUrl: row.Image,
+    iconSize: [38, 95],
+    iconAnchor: [22, 94],
+    popupAnchor: [-3, -76]
+  })
+}).bindPopup(row.Title);
+
+marker.addTo(map);
     }
 
   });
