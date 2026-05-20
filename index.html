@@ -25,7 +25,6 @@
   display: flex;
   gap: 10px;
   align-items: flex-start;
-  width: 50vw
 }
 .popup img {
   width: 120px;
@@ -123,7 +122,7 @@ var map = L.map('map', {
       <div class="link"><a href="${row.link}" target="_blank">Listen here!</a></div>
     </div>
   </div>
-`,)
+`,{ maxWidth: 350 })
 
 marker.addTo(map);
     }
