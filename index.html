@@ -84,11 +84,11 @@
     shadowSize: [0, 0],
     popupAnchor: [0, 0]
   })
-}).bindPopup('
-    <div class="title">row.Name</div>
-    <div class="description">row.Description</div>
-    <div class="link"><a href="row.link" target="_blank">Open to listen</a></div>
-  ');
+}).bindPopup(`
+  <div class="title">${row.Name}</div>
+  <div class="description">${row.Description}</div>
+  <div class="link"><a href="${row.link}" target="_blank">Open to listen</a></div>
+`);
 
 marker.addTo(map);
     }
