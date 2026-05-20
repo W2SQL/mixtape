@@ -1,5 +1,12 @@
+## Travel Mixtape
+This is the map element of my mixed-media travel journal.
 
-## Active map
-[w2sql.github.io/mixtape/](w2sql.github.io/mixtape/)
+## Link to active map
+[w2sql.github.io/mixtape/](https://w2sql.github.io/mixtape/))
 
+## Credits
+[Leaflet open-source JavaScript mapping library](https://leafletjs.com/)
 
+[CSV scraping code from HandsOnDataViz](https://handsondataviz.org/)
+
+Images and copy belong to Annalise Pasztor, [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
