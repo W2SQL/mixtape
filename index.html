@@ -88,6 +88,7 @@ var map = L.map('map', {
   center: [0, 0],
   zoom: isMobile ? 1 : 2,
   minZoom: isMobile ? 1 : 1.5,
+  worldCopyJump: true, //repeats points on infinite horizontal scroll
   scrollWheelZoom: true,
   tap: isMobile ? true : false,
 
@@ -96,7 +97,7 @@ var map = L.map('map', {
     [-85, -Infinity],  // Southwest corner (lat, lng)
     [85,   Infinity]   // Northeast corner (lat, lng)
   ],
-  maxBoundsViscosity: isMobile ? 0.0 : 1.0  // 1.0 = hard stop, 0.0 = no resistance
+  maxBoundsViscosity: isMobile ? 0.5 : 1.0  // 1.0 = hard stop, 0.0 = no resistance
 });
 
   // display Esri basemap tiles 
