@@ -9,4 +9,4 @@ This is the map element of my mixed-media travel journal.
 
 [CSV scraping code from HandsOnDataViz](https://handsondataviz.org/)
 
-Images and copy belong to Annalise Pasztor, [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+Images and copy belong to Javelina Productions, [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
